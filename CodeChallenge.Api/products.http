@@ -1,0 +1,34 @@
+@host = https://localhost:7141
+
+### Get all
+GET {{host}}/products
+Content-Type: application/json
+
+### Get by Id
+GET {{host}}/products/1435f45a-7b28-4f0e-9979-5896bfe1186b
+Content-Type: application/json
+
+### Create new product
+
+POST {{host}}/products
+Content-Type: application/json
+
+{
+  "name": "IPhone 15 max",
+  "price": 1440
+}
+
+### Update product
+
+PUT {{host}}/products/1435f45a-7b28-4f0e-9979-5896bfe1186b
+Content-Type: application/json
+
+{
+  "name": "IPhone 16.",
+  "price": 1100
+}
+
+### Delete product
+
+DELETE {{host}}/products/1435f45a-7b28-4f0e-9979-5896bfe1186b
+Content-Type: application/json
