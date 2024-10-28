@@ -9,7 +9,7 @@ namespace CodeChallenge.Api.Controllers;
 [Route("[controller]")]
 public class ProductsController(IProductsRepository productsRepository) : ControllerBase
 {
-    // Process, and logic should not be in controller, I normaly use to use CQRS pattern
+    // Process, and logic should not be in controller, I normally use to use CQRS pattern
     
     [HttpGet]
     public async Task<IActionResult> GetAll(CancellationToken cancellationToken)
@@ -57,7 +57,9 @@ public class ProductsController(IProductsRepository productsRepository) : Contro
     [HttpDelete("{id:guid}")]
     public async Task<IActionResult> Delete([FromRoute] Guid id, CancellationToken cancellationToken)
     {
-        await productsRepository.DeleteAsync(id, cancellationToken);
+        if (await productsRepository.GetByIdAsync(id, cancellationToken) is not { } product) return NotFound();
+        
+        await productsRepository.DeleteAsync(product.Id, cancellationToken);
         
         return NoContent();
     }

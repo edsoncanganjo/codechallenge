@@ -5,4 +5,4 @@ in this repository you will find the code challenges answers for validation
 [Doc for CsharpKnowledge](./Docs/csharpknowledge.md)
 
 # CodeChallenge.API
-[Doc for API](./Docs/csharpknowledge.md)
+[Doc for API](./Docs/api.md)

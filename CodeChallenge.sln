@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge.CsharpKnowled
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge.Api", "CodeChallenge.Api\CodeChallenge.Api.csproj", "{82B8F3EF-B6B4-4BDD-A56C-BF6CFB899B11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge.Api.Tests", "CodeChallenge.Api.Tests\CodeChallenge.Api.Tests.csproj", "{D850C983-C39B-4DEF-87B4-FB3C591568B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{82B8F3EF-B6B4-4BDD-A56C-BF6CFB899B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82B8F3EF-B6B4-4BDD-A56C-BF6CFB899B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82B8F3EF-B6B4-4BDD-A56C-BF6CFB899B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D850C983-C39B-4DEF-87B4-FB3C591568B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D850C983-C39B-4DEF-87B4-FB3C591568B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D850C983-C39B-4DEF-87B4-FB3C591568B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D850C983-C39B-4DEF-87B4-FB3C591568B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

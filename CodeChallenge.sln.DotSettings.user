@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7d051b36_002D3ad0_002D4ff0_002D9c59_002D2433d7b2dd44/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetAll_OnSuccess_ShouldReturnStatusCode200Ok" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::D850C983-C39B-4DEF-87B4-FB3C591568B1::net8.0::CodeChallenge.Api.Tests.TestProductsController.GetAll_OnSuccess_ShouldReturnStatusCode200Ok&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D850C983-C39B-4DEF-87B4-FB3C591568B1::net8.0::CodeChallenge.Api.Tests.TestProductsController.Add_OnSuccess_ShouldReturnStatusCode201&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D850C983-C39B-4DEF-87B4-FB3C591568B1::net8.0::CodeChallenge.Api.Tests.TestProductsController.Delete_OnSuccess_ShouldReturnStatusCode204&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D850C983-C39B-4DEF-87B4-FB3C591568B1::net8.0::CodeChallenge.Api.Tests.TestProductsController.Delete_OnInvalidId_ShouldReturnStatusCode404&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
